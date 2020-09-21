@@ -1,0 +1,16 @@
+//formato pantalla grande:
+@media screen and (min-width:481px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        grid-template-rows: 30px 30px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    } 
+    .title-pag-container{
+        grid-column: 1/6;
+        text-align:left;
+    }
+    .item {
+        padding:3px;
+    }
+}

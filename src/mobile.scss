@@ -1,0 +1,22 @@
+//formato pantalla pequeña:
+@media screen and (max-width: 480px) {
+    .main-container {
+        //importante, dar un tamaño al contenedor con width y luego a las columnas y/o filas
+        width: 300px;
+        height: 350px;
+        display: grid;
+        grid-template-columns: 80%;
+        justify-content:center;
+        align-content:start;
+        grid-template-rows: 30px 50px 50px 50px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        border: 10px solid black;
+    } 
+    .title-pag-container{
+        text-align:left; 
+        padding:2px; 
+    }
+    .item {
+        padding:15px;
+    }
+}

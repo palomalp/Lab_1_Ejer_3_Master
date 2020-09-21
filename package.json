@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/palomalp/Lab_1_Ejer_3_Master/issues"
   },
-  "homepage": "https://github.com/palomalp/Lab_1_Ejer_3_Master#readme"
+  "homepage": "https://github.com/palomalp/Lab_1_Ejer_3_Master#readme",
+  "dependencies": {
+    "mobile": "0.0.1",
+    "sass": "^1.26.11"
+  }
 }

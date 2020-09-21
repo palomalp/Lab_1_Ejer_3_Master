@@ -1,0 +1,14 @@
+@import "mobile.scss";
+@import "fullScreen.scss";
+
+body {
+    background-color: mintcream;
+    text-align: center;
+}
+.item {
+    background-color:#33D4FF;
+    color: white;
+    &:hover {
+        background-color: blue;
+    }
+}
