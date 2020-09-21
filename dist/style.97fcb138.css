@@ -8,7 +8,9 @@
     align-content: start;
     grid-template-rows: 30px 50px 50px 50px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    border: 10px solid black;
+    border: 8px solid black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
   }
 
   .title-pag-container {
